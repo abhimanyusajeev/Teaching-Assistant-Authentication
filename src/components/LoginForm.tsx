@@ -9,7 +9,7 @@ const LoginForm: React.FC = () => {
     };
 
     return (
-        <div>
+        <div className='max-w-md mx-auto px-4 py-8z' >
             <h1 className="text-2xl font-bold mb-4">Login</h1>
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
