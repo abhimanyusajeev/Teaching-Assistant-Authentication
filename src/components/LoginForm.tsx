@@ -30,7 +30,7 @@ const LoginForm: React.FC = () => {
             <div className="mt-4">
                 {/* Don't have an account?{' '} */}
                 <Link href="/signup">
-                    <div className="text-blue-500">Sign up here</div>
+                    <div className="text-blue-400">Sign up here</div>
                 </Link>
             </div>
         </div>
