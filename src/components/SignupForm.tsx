@@ -53,7 +53,7 @@ const SignupForm = () => {
                 console.log(apiRes);
 
                 if (apiRes?.status == 201) {
-                    router.push("/homepage");
+                    router.push("/UserDetails");
                 }
             } catch (error) {
                 if (error instanceof AxiosError) {

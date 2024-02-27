@@ -10,7 +10,7 @@ const LoginForm: React.FC = () => {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         // Handle login logic here
-        router.push('/homepage');
+        router.push('/UserDetails');
     };
 
     return (
