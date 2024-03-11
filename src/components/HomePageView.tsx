@@ -13,6 +13,9 @@ const HomepageContainer: React.FC = () => {
                 <Link href="/Quiz">
                     <div className="button transition ease-in-out delay-150 bg-gray-200 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  rounded-md">Quiz</div>
                 </Link>
+                <Link href="/Quiz">
+                    <div className="button transition ease-in-out delay-150 bg-gray-200 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300  rounded-md"> Pronunciation</div>
+                </Link>
             </div>
         </div>
     );

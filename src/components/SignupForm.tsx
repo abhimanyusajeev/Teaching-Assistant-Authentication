@@ -134,7 +134,7 @@ const SignupForm = () => {
                     </form>
                     <div className="mt-4">
                         Already have an account?{' '}
-                        <Link href="/" className="text-blue-500">
+                        <Link href="login" className="text-blue-500">
                             Login here
                         </Link>
                     </div>
