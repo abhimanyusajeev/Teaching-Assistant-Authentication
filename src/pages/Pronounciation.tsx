@@ -2,6 +2,7 @@
 
 import React from 'react';
 import PronounciationPage from '../components/PronounciationPage';
+import Videos from '../components/PronounciationPage';
 
 const GamePage: React.FC = () => {
     return (
@@ -11,4 +12,4 @@ const GamePage: React.FC = () => {
     );
 };
 
-export default GamePage;
+export default Videos;
